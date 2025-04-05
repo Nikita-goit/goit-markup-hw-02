@@ -30,24 +30,24 @@ body {
 .header-menu:focus {
     color: #404BBF;
 }
- .header-menu{
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2e2f42;
- }   
 
+.header-menu {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 
-.info {
-font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-font-style: normal;
+.contacts {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-style: normal;
 }
 
 .contacts:hover,
@@ -59,8 +59,6 @@ font-style: normal;
 /* main */
 .main-section-one {
     background: #2e2f42;
-    width: 1440px;
-    height: 600px;
 }
 
 .main-heading {
@@ -81,9 +79,10 @@ font-style: normal;
     letter-spacing: 0.04em;
     color: #FFFFFF;
 }
+
 .button:hover,
-.button:focus{
-    background-color: #404BBF
+.button:focus {
+    background-color: #404BBF;
 }
 
 .main-title {
@@ -105,6 +104,10 @@ font-style: normal;
 }
 
 /* Our Team */
+.our-team-section {
+    background-color: #F4F4FD;
+}
+
 .team-section {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -113,14 +116,13 @@ font-style: normal;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    background-color: #F4F4FD;
-    text-transform: capitalize
-
+    text-transform: capitalize;
 }
 
 .img-team {
-    background: url("path_to_image");
     background-color: #FFFFFF;
+    width: 264px;
+    height: 260px;
 }
 
 .team-name {
@@ -152,14 +154,13 @@ font-style: normal;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    text-transform: capitalize
+    text-transform: capitalize;
 }
 
 .portfolio-img {
     background: url("path_to_image");
     width: 360px;
     height: 300px;
-
 }
 
 .portfolio-link {
@@ -168,7 +169,7 @@ font-style: normal;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
 }
 
 .portfolio-text {
@@ -199,7 +200,7 @@ footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
